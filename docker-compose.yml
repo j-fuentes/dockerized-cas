@@ -1,5 +1,6 @@
 casserver:
   build: .
+  container_name: casserver
   ports:
     - "8080:8080"
     - "8443:8443"
